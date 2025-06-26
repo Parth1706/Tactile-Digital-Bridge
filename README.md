@@ -25,5 +25,5 @@ A hybrid communication platform that combines tactile Morse code input with a mo
 - Finite State Machine for Morse decoding
 - HTML/JS web interface (stored in SPIFFS)
 
-## 📁 Project Structure
+
 
