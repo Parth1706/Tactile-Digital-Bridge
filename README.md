@@ -25,5 +25,31 @@ A hybrid communication platform that combines tactile Morse code input with a mo
 - Finite State Machine for Morse decoding
 - HTML/JS web interface (stored in SPIFFS)
 
+## 🚀 Getting Started
+
+1. **Install Libraries**:
+   - [`ESPAsyncWebServer`](https://github.com/me-no-dev/ESPAsyncWebServer)
+   - [`AsyncTCP`](https://github.com/me-no-dev/AsyncTCP)
+
+2. **Prepare Web Interface Files**:
+   - Place your HTML/JS files in the `/data` folder
+   - Upload them to ESP32 using the **ESP32 Sketch Data Upload** tool
+
+3. **Upload the Sketch**:
+   - Open `Tactile_Digital_Bridge.ino` in Arduino IDE
+   - Select the correct ESP32 board and port
+   - Compile and upload
+
+4. **Access the Interface**:
+   - Connect to the ESP32's Wi-Fi hotspot
+   - Open browser at `http://192.168.4.1` to use the chat interface
+
+## 📚 Applications
+
+- Assistive communication for individuals with motor disabilities
+- Emergency signaling in low-connectivity environments
+- Hands-on learning of Morse code and WebSocket protocols
+
+
 
 
